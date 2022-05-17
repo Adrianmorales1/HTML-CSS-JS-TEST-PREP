@@ -1,0 +1,176 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#container {
+    margin:auto;
+    width:800px;
+    border:1px solid black;
+}
+
+.header{
+    height:40px;
+    background-color: black;
+    color:silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftSideH {
+    font-size: 10px;
+    width: 50%;
+}
+
+.RightSideH {
+    width:50%;
+}
+
+ul {
+
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    font-size: 13px;
+    flex-wrap:wrap;
+}
+
+li > a {
+    text-decoration: none;
+    color:darkgrey;
+    margin:5px;
+}
+.aboveMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSideAM {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.leftSideAM > * {
+    width: 80%;
+}
+
+.leftSideAM > button {
+    align-self: flex-end;
+    margin-right: 10px;
+    width:100px;
+}
+
+.RightSideAM {
+    width:50%;
+    display:flex;
+    justify-content: center;
+}
+
+.main {
+    display:flex;
+}
+
+.leftSideM {
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding:10px;
+}
+.topLS {
+    height: 120px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SS, .EF, .HO {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.SS > h2, .EF > h2, .HO > h2 {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.EF {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.RightSideM {
+    width:40%;
+    display: flex;
+}
+
+.MLS {
+    padding:15px;
+    width:55%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MLS > a {
+    margin-top: 25px;
+    background-color: white;
+    border:none;
+}
+
+.MRS {
+    width:45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSideCI {
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding-left:20px;
+}
+
+.leftSideCI > *{
+    margin:20px 0px;
+}
+
+.contactInfo {
+    display: flex;
+    background-color: black;
+    color:white;
+}
+
+.leftSideCI, .CenterSideCI, .RightSideCI {
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form > input {
+    background-color: grey;
+}
+
+::placeholder {
+    color:white;
+}
+
+.main, .aboveMain, .contactInfo {
+    height:300px;
+}
+
+.footer {
+    height:40px;
+}
